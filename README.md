@@ -4,7 +4,7 @@ It has a virtual clock that displays the current date and time depending on the 
 
 Virtual clock:
 
-![image](https://github.com/user-attachments/assets/c311331b-b20b-4e87-8559-cdac2f1ddddd)
+![image](https://github.com/user-attachments/assets/dec37746-8aa1-441e-84c1-9cdd410ad201)
 
 The app contains a stopwatch that can be stopped or reset. 
 Stopwach:
