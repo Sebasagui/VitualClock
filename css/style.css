@@ -57,7 +57,7 @@ body{
     background-color: #BDE0FE;
     max-width: 350px;
     text-align: center;
-    margin: 0 auto;
+    margin: 10% auto;
     border-radius: 10px;
     padding: 10px;
 }
@@ -77,4 +77,68 @@ body{
     background-color: #A2D2FF;
     cursor: pointer;
     text-shadow: 3px 3px 5px #CDB4DB;
+}
+
+#timezonelabel {
+    font-size: 20px;
+}
+
+.selectbox{
+    margin: 20px auto 20px auto;
+    display: block;
+    text-align: center;
+    background-color: #cdb4db;
+    width: 350px;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 2px #ffafcc;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 25px;
+    align-items: center;
+}
+
+select {
+    /* Reset Select */
+    appearance: none;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 2;
+    padding: 0 1em;
+    color: aliceblue;
+    background-color: #b29abe;
+    background-image: none;
+    cursor: pointer;
+}
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select wrapper */
+  .select {
+    position: relative;
+    display: flex;
+    margin: 10px auto;
+    width: 90%;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+    text-align: center;
+}
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em 0.5em;
+    background-color: #a08caa;
+    transition: .25s all ease;
+    pointer-events: none;
+    text-shadow: 2px 2px 1px #ffafcc;
+}
+  /* Transition */
+  .select:hover::after {
+    color: #cdb4db;
 }
