@@ -1,10 +1,12 @@
-This is a frontend application. It's a virtual clock that displays the current time and date, and also has a stopwatch application. 
+This is a frontend application using only HTML, CSS and vanilla Javascript. 
+It has a virtual clock that displays the current date and time depending on the selected time zone.
+
 
 Virtual clock:
 
-![image](https://github.com/user-attachments/assets/d28ea4b0-9170-4977-93b3-a53199790471)
+![image](https://github.com/user-attachments/assets/dec37746-8aa1-441e-84c1-9cdd410ad201)
 
+The app contains a stopwatch that can be stopped or reset. 
 Stopwach:
 
-![image](https://github.com/user-attachments/assets/c3e101b8-b60d-4c6e-93ff-76dc2a32990d)
-
+![image](https://github.com/user-attachments/assets/2a33b219-ef3d-439b-a105-0ba14955f171)
